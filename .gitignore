@@ -1,3 +1,5 @@
+req/
+
 # weights and biases
 .wandb/ 
 wandb_api_key.txt
@@ -79,3 +81,10 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+# Dataset files
+*.pt
+*.tgz
+*.hdf5
+*.zarr
+neuralop/datasets/data/
