@@ -1,0 +1,30 @@
+{
+  "l2_error": NaN,
+  "l2_error_std": NaN,
+  "h1_error": NaN,
+  "h1_error_std": NaN,
+  "inference_time_mean": 0.10400134325027466,
+  "inference_time_std": 0.04570917873083345,
+  "config": {
+    "n_train": 1000,
+    "n_tests": [
+      100
+    ],
+    "batch_size": 4,
+    "test_batch_sizes": [
+      8
+    ],
+    "train_resolution": 128,
+    "test_resolutions": [
+      128
+    ],
+    "n_epochs": 51,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "model_n_modes": [
+      64,
+      64
+    ],
+    "model_hidden_channels": 64
+  }
+}
