@@ -1,10 +1,8 @@
 {
-  "l2_error": NaN,
-  "l2_error_std": NaN,
-  "h1_error": NaN,
-  "h1_error_std": NaN,
-  "inference_time_mean": 0.10400134325027466,
-  "inference_time_std": 0.04570917873083345,
+  "l2_mean": 0.030752714723348618,
+  "h1_mean": 0.09247767925262451,
+  "inference_time_mean": 0.09956735000014305,
+  "inference_time_std": 0.04849201311869723,
   "config": {
     "n_train": 1000,
     "n_tests": [
@@ -18,7 +16,7 @@
     "test_resolutions": [
       128
     ],
-    "n_epochs": 51,
+    "n_epochs": 21,
     "learning_rate": 0.001,
     "weight_decay": 1e-05,
     "model_n_modes": [
@@ -26,5 +24,6 @@
       64
     ],
     "model_hidden_channels": 64
-  }
+  },
+  "checkpoint": "checkpoints\\week3\\fno_navier_stokes_20260410_230719.pt"
 }
