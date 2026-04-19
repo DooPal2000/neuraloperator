@@ -1,0 +1,18 @@
+{
+  "config": {
+    "n_modes": [
+      32,
+      32
+    ],
+    "hidden_channels": 64,
+    "in_channels": 2,
+    "out_channels": 1,
+    "n_epochs": 75,
+    "batch_size": 16,
+    "dataset": "navier_stokes_week5"
+  },
+  "timestamp": "20260419_233834",
+  "checkpoint_path": "checkpoints\\week5\\fno_week5_20260419_233834.pt",
+  "train_loss_history": [],
+  "eval_history": {}
+}
