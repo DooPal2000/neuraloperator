@@ -1,4 +1,5 @@
 req/
+.gradio/
 
 # weights and biases
 .wandb/ 
